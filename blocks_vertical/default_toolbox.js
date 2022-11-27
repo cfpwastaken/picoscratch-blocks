@@ -623,6 +623,33 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
 				'</shadow>' +
       '</value>' +
     '</block>' +
+		'<block type="pico_photoresistor" id="pico_photoresistor">' +
+      '<value name="PIN">' +
+				'<shadow type="math_number">' +
+					'<field name="NUM">0</field>' +
+				'</shadow>' +
+      '</value>' +
+    '</block>' +
+		'<block type="pico_rgb_led" id="pico_rgb_led">' +
+			'<value name="PINR">' +
+				'<shadow type="math_number">' +
+					'<field name="NUM">0</field>' +
+				'</shadow>' +
+			'</value>' +
+      '<value name="PING">' +
+				'<shadow type="math_number">' +
+					'<field name="NUM">0</field>' +
+				'</shadow>' +
+      '</value>' +
+      '<value name="PINB">' +
+				'<shadow type="math_number">' +
+					'<field name="NUM">0</field>' +
+				'</shadow>' +
+      '</value>' +
+			'<value name="COLOR">' +
+				'<shadow type="colour_picker"></shadow>' +
+			'</value>' +
+    '</block>' +
   '</category>' +
 	'<category name="Debug" id="debug" colour="#29beb8" secondaryColour="#29ebe8" ' +
     'iconURI="./media/extensions/wedo2-block-icon.svg" showStatusButton="false">' +

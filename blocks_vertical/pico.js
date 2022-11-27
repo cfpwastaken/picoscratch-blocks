@@ -237,3 +237,54 @@ Blockly.Blocks["pico_potentiometer"] = {
 		})
 	}
 };
+Blockly.Blocks["pico_photoresistor"] = {
+	init() {
+		this.jsonInit({
+			"message0": Blockly.Msg.PHOTORESISTOR,
+			"args0": [
+        {
+          "type": "input_value",
+          "name": "PIN"
+        }
+      ],
+      "category": Blockly.Categories.more,
+      "extensions": ["colours_more", "output_number", "scratch_extension"]
+		})
+	}
+};
+Blockly.Blocks["pico_rgb_led"] = {
+	init() {
+		this.jsonInit({
+			"message0": Blockly.Msg.RGBLED,
+			"args0": [
+				{
+					"type": "field_image",
+					"src": Blockly.mainWorkspace.options.pathToMedia + "extensions/rgb.svg",
+					"width": 40,
+					"height": 40,
+				},
+				{
+					"type": "field_vertical_separator"
+				},
+        {
+          "type": "input_value",
+          "name": "PINR"
+        },
+        {
+          "type": "input_value",
+          "name": "PING"
+        },
+        {
+          "type": "input_value",
+          "name": "PINB"
+        },
+				{
+					"type": "input_value",
+					"name": "COLOR"
+				}
+      ],
+      "category": Blockly.Categories.more,
+      "extensions": ["colours_more", "shape_statement", "scratch_extension"]
+		})
+	}
+};
