@@ -633,17 +633,17 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
 		'<block type="pico_rgb_led" id="pico_rgb_led">' +
 			'<value name="PINR">' +
 				'<shadow type="math_number">' +
-					'<field name="NUM">0</field>' +
+					'<field name="PINR">0</field>' +
 				'</shadow>' +
 			'</value>' +
       '<value name="PING">' +
 				'<shadow type="math_number">' +
-					'<field name="NUM">0</field>' +
+					'<field name="PING">0</field>' +
 				'</shadow>' +
       '</value>' +
       '<value name="PINB">' +
 				'<shadow type="math_number">' +
-					'<field name="NUM">0</field>' +
+					'<field name="PINB">0</field>' +
 				'</shadow>' +
       '</value>' +
 			'<value name="COLOR">' +
