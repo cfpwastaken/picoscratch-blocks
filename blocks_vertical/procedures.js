@@ -819,6 +819,16 @@ Blockly.Blocks['procedures_call'] = {
   buildShadowDom_: Blockly.ScratchBlocks.ProcedureUtils.buildShadowDom_
 };
 
+Blockly.Blocks["procedures_return"] = {
+	init() {
+		this.jsonInit({
+			"message0": Blockly.Msg.RETURN,
+      "category": Blockly.Categories.more,
+      "extensions": ["colours_more", "shape_statement"]
+		})
+	}
+};
+
 Blockly.Blocks['procedures_prototype'] = {
   /**
    * Block for calling a procedure with no return value, for rendering inside
