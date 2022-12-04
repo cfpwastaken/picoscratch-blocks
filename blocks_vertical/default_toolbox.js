@@ -561,30 +561,30 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
   //     '</value>' +
   //   '</block>' +
   // '</category>' +
-	'<category name="Pico" id="pico" colour="#FF6680" secondaryColour="#FF4D6A" ' +
-    'iconURI="./media/extensions/wedo2-block-icon.svg" showStatusButton="false">' +
-    '<block type="pico_ledoff" id="pico_ledoff">' +
+	'<category name="Components" id="components" colour="#9966FF" secondaryColour="#774DCB" ' +
+    'showStatusButton="false">' +
+    '<block type="components_ledoff" id="components_ledoff">' +
       '<value name="PIN">' +
 				'<shadow type="math_number">' +
 					'<field name="NUM">0</field>' +
 				'</shadow>' +
       '</value>' +
     '</block>' +
-		'<block type="pico_ledon" id="pico_ledon">' +
+		'<block type="components_ledon" id="components_ledon">' +
       '<value name="PIN">' +
 				'<shadow type="math_number">' +
 					'<field name="NUM">0</field>' +
 				'</shadow>' +
       '</value>' +
     '</block>' +
-		'<block type="pico_ledstatus" id="pico_ledstatus">' +
+		'<block type="components_ledstatus" id="components_ledstatus">' +
       '<value name="PIN">' +
 				'<shadow type="math_number">' +
 					'<field name="NUM">0</field>' +
 				'</shadow>' +
       '</value>' +
     '</block>' +
-		'<block type="pico_setledbrightness" id="pico_setledbrightness">' +
+		'<block type="components_setledbrightness" id="components_setledbrightness">' +
 			'<value name="PIN">' +
 				'<shadow type="math_number">' +
 					'<field name="NUM">0</field>' +
@@ -596,41 +596,41 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
 				'</shadow>' +
 			'</value>' +
     '</block>' +
-		'<block type="pico_ledbrightness" id="pico_ledbrightness">' +
+		'<block type="components_ledbrightness" id="components_ledbrightness">' +
 			'<value name="PIN">' +
 				'<shadow type="math_number">' +
 					'<field name="NUM">0</field>' +
 				'</shadow>' +
 			'</value>' +
     '</block>' +
-		'<block type="pico_internalledoff" id="pico_internalledoff">' +
+		'<block type="components_internalledoff" id="components_internalledoff">' +
     '</block>' +
-		'<block type="pico_internalledon" id="pico_internalledon">' +
+		'<block type="components_internalledon" id="components_internalledon">' +
     '</block>' +
-		'<block type="pico_internalledstatus" id="pico_internalledstatus">' +
+		'<block type="components_internalledstatus" id="components_internalledstatus">' +
     '</block>' +
-		'<block type="pico_buttonstatus" id="pico_ledon">' +
+		'<block type="components_buttonstatus" id="components_ledon">' +
       '<value name="PIN">' +
 				'<shadow type="math_number">' +
 					'<field name="NUM">0</field>' +
 				'</shadow>' +
       '</value>' +
     '</block>' +
-		'<block type="pico_potentiometer" id="pico_potentiometer">' +
+		'<block type="components_potentiometer" id="components_potentiometer">' +
       '<value name="PIN">' +
 				'<shadow type="math_number">' +
 					'<field name="NUM">0</field>' +
 				'</shadow>' +
       '</value>' +
     '</block>' +
-		'<block type="pico_photoresistor" id="pico_photoresistor">' +
+		'<block type="components_photoresistor" id="components_photoresistor">' +
       '<value name="PIN">' +
 				'<shadow type="math_number">' +
 					'<field name="NUM">0</field>' +
 				'</shadow>' +
       '</value>' +
     '</block>' +
-		'<block type="pico_rgb_led" id="pico_rgb_led">' +
+		'<block type="components_rgb_led" id="components_rgb_led">' +
 			'<value name="PINR">' +
 				'<shadow type="math_number">' +
 					'<field name="PINR">0</field>' +

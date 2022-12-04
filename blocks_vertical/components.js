@@ -1,11 +1,11 @@
-goog.provide('Blockly.Blocks.pico');
+goog.provide('Blockly.Blocks.components');
 
 goog.require('Blockly.Blocks');
 goog.require('Blockly.Colours');
 goog.require('Blockly.constants');
 goog.require('Blockly.ScratchBlocks.VerticalExtensions');
 
-Blockly.Blocks["pico_ledoff"] = {
+Blockly.Blocks["components_ledoff"] = {
 	init() {
 		this.jsonInit({
 			"message0": Blockly.Msg.TURN_LED_OFF,
@@ -25,11 +25,11 @@ Blockly.Blocks["pico_ledoff"] = {
         },
       ],
       "category": Blockly.Categories.more,
-      "extensions": ["colours_more", "shape_statement", "scratch_extension"]
+      "extensions": ["colours_looks", "shape_statement", "scratch_extension"]
 		})
 	}
 };
-Blockly.Blocks["pico_ledstatus"] = {
+Blockly.Blocks["components_ledstatus"] = {
 	init() {
 		this.jsonInit({
 			"message0": Blockly.Msg.LED_STATUS,
@@ -49,11 +49,11 @@ Blockly.Blocks["pico_ledstatus"] = {
         },
       ],
       "category": Blockly.Categories.more,
-      "extensions": ["colours_more", "output_boolean", "scratch_extension"]
+      "extensions": ["colours_looks", "output_boolean", "scratch_extension"]
 		})
 	}
 };
-Blockly.Blocks["pico_ledon"] = {
+Blockly.Blocks["components_ledon"] = {
 	init() {
 		this.jsonInit({
 			"message0": Blockly.Msg.TURN_LED_ON,
@@ -73,11 +73,11 @@ Blockly.Blocks["pico_ledon"] = {
         },
       ],
       "category": Blockly.Categories.more,
-      "extensions": ["colours_more", "shape_statement", "scratch_extension"]
+      "extensions": ["colours_looks", "shape_statement", "scratch_extension"]
 		})
 	}
 };
-Blockly.Blocks["pico_setledbrightness"] = {
+Blockly.Blocks["components_setledbrightness"] = {
 	init() {
 		this.jsonInit({
 			"message0": Blockly.Msg.SET_LED_BRIGHTNESS,
@@ -101,11 +101,11 @@ Blockly.Blocks["pico_setledbrightness"] = {
         },
       ],
       "category": Blockly.Categories.more,
-      "extensions": ["colours_more", "shape_statement", "scratch_extension"]
+      "extensions": ["colours_looks", "shape_statement", "scratch_extension"]
 		})
 	}
 };
-Blockly.Blocks["pico_ledbrightness"] = {
+Blockly.Blocks["components_ledbrightness"] = {
 	init() {
 		this.jsonInit({
 			"message0": Blockly.Msg.GET_LED_BRIGHTNESS,
@@ -125,11 +125,11 @@ Blockly.Blocks["pico_ledbrightness"] = {
         }
       ],
       "category": Blockly.Categories.more,
-      "extensions": ["colours_more", "output_number", "scratch_extension"]
+      "extensions": ["colours_looks", "output_number", "scratch_extension"]
 		})
 	}
 };
-Blockly.Blocks["pico_internalledoff"] = {
+Blockly.Blocks["components_internalledoff"] = {
 	init() {
 		this.jsonInit({
 			"message0": Blockly.Msg.TURN_INTERNAL_LED_OFF,
@@ -145,11 +145,11 @@ Blockly.Blocks["pico_internalledoff"] = {
 				},
 			],
       "category": Blockly.Categories.more,
-      "extensions": ["colours_more", "shape_statement", "scratch_extension"]
+      "extensions": ["colours_looks", "shape_statement", "scratch_extension"]
 		})
 	}
 };
-Blockly.Blocks["pico_internalledstatus"] = {
+Blockly.Blocks["components_internalledstatus"] = {
 	init() {
 		this.jsonInit({
 			"message0": Blockly.Msg.INTERNAL_LED_STATUS,
@@ -165,11 +165,11 @@ Blockly.Blocks["pico_internalledstatus"] = {
 				},
 			],
       "category": Blockly.Categories.more,
-      "extensions": ["colours_more", "output_boolean", "scratch_extension"]
+      "extensions": ["colours_looks", "output_boolean", "scratch_extension"]
 		})
 	}
 };
-Blockly.Blocks["pico_internalledon"] = {
+Blockly.Blocks["components_internalledon"] = {
 	init() {
 		this.jsonInit({
 			"message0": Blockly.Msg.TURN_INTERNAL_LED_ON,
@@ -185,11 +185,11 @@ Blockly.Blocks["pico_internalledon"] = {
 				},
 			],
       "category": Blockly.Categories.more,
-      "extensions": ["colours_more", "shape_statement", "scratch_extension"]
+      "extensions": ["colours_looks", "shape_statement", "scratch_extension"]
 		})
 	}
 };
-Blockly.Blocks["pico_buttonstatus"] = {
+Blockly.Blocks["components_buttonstatus"] = {
 	init() {
 		this.jsonInit({
 			"message0": Blockly.Msg.BUTTON_STATUS,
@@ -209,11 +209,11 @@ Blockly.Blocks["pico_buttonstatus"] = {
         },
       ],
       "category": Blockly.Categories.more,
-      "extensions": ["colours_more", "output_boolean", "scratch_extension"]
+      "extensions": ["colours_looks", "output_boolean", "scratch_extension"]
 		})
 	}
 };
-Blockly.Blocks["pico_potentiometer"] = {
+Blockly.Blocks["components_potentiometer"] = {
 	init() {
 		this.jsonInit({
 			"message0": Blockly.Msg.POTENTIOMETER,
@@ -233,11 +233,11 @@ Blockly.Blocks["pico_potentiometer"] = {
         }
       ],
       "category": Blockly.Categories.more,
-      "extensions": ["colours_more", "output_number", "scratch_extension"]
+      "extensions": ["colours_looks", "output_number", "scratch_extension"]
 		})
 	}
 };
-Blockly.Blocks["pico_photoresistor"] = {
+Blockly.Blocks["components_photoresistor"] = {
 	init() {
 		this.jsonInit({
 			"message0": Blockly.Msg.PHOTORESISTOR,
@@ -248,11 +248,11 @@ Blockly.Blocks["pico_photoresistor"] = {
         }
       ],
       "category": Blockly.Categories.more,
-      "extensions": ["colours_more", "output_number", "scratch_extension"]
+      "extensions": ["colours_looks", "output_number", "scratch_extension"]
 		})
 	}
 };
-Blockly.Blocks["pico_rgb_led"] = {
+Blockly.Blocks["components_rgb_led"] = {
 	init() {
 		this.jsonInit({
 			"message0": Blockly.Msg.RGBLED,
@@ -284,7 +284,7 @@ Blockly.Blocks["pico_rgb_led"] = {
 				}
       ],
       "category": Blockly.Categories.more,
-      "extensions": ["colours_more", "shape_statement", "scratch_extension"]
+      "extensions": ["colours_looks", "shape_statement", "scratch_extension"]
 		})
 	}
 };
