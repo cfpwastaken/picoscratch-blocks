@@ -288,3 +288,22 @@ Blockly.Blocks["components_rgb_led"] = {
 		})
 	}
 };
+Blockly.Blocks["components_ultrasonic"] = {
+	init() {
+		this.jsonInit({
+			"message0": Blockly.Msg.ULTRASONIC,
+			"args0": [
+        {
+          "type": "input_value",
+          "name": "PINT"
+        },
+        {
+          "type": "input_value",
+          "name": "PINE"
+        }
+      ],
+      "category": Blockly.Categories.more,
+      "extensions": ["colours_looks", "output_number", "scratch_extension"]
+		})
+	}
+};

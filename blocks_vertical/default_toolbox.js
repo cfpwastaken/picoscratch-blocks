@@ -650,6 +650,18 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
 				'<shadow type="colour_picker"></shadow>' +
 			'</value>' +
     '</block>' +
+		'<block type="components_ultrasonic" id="components_ultrasonic">' +
+			'<value name="PINT">' +
+				'<shadow type="math_number">' +
+					'<field name="PINR">0</field>' +
+				'</shadow>' +
+			'</value>' +
+      '<value name="PINE">' +
+				'<shadow type="math_number">' +
+					'<field name="PING">1</field>' +
+				'</shadow>' +
+      '</value>' +
+    '</block>' +
   '</category>' +
 	'<category name="Debug" id="debug" colour="#29beb8" secondaryColour="#29ebe8" ' +
     'iconURI="./media/extensions/wedo2-block-icon.svg" showStatusButton="false">' +
