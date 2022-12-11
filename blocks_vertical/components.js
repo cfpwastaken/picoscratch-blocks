@@ -322,3 +322,41 @@ Blockly.Blocks["components_pir"] = {
 		})
 	}
 };
+Blockly.Blocks["components_buzzer_volume"] = {
+	init() {
+		this.jsonInit({
+			"message0": Blockly.Msg.BUZZER_VOLUME,
+			"args0": [
+        {
+          "type": "input_value",
+          "name": "PIN"
+        },
+				{
+					"type": "input_value",
+					"name": "VOLUME"
+				}
+      ],
+      "category": Blockly.Categories.more,
+      "extensions": ["colours_looks", "shape_statement", "scratch_extension"]
+		})
+	}
+};
+Blockly.Blocks["components_buzzer_freq"] = {
+	init() {
+		this.jsonInit({
+			"message0": Blockly.Msg.BUZZER_FREQ,
+			"args0": [
+        {
+          "type": "input_value",
+          "name": "PIN"
+        },
+				{
+					"type": "input_value",
+					"name": "NOTE"
+				}
+      ],
+      "category": Blockly.Categories.more,
+      "extensions": ["colours_looks", "shape_statement", "scratch_extension"]
+		})
+	}
+};
