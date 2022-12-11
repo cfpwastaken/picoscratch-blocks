@@ -307,3 +307,18 @@ Blockly.Blocks["components_ultrasonic"] = {
 		})
 	}
 };
+Blockly.Blocks["components_pir"] = {
+	init() {
+		this.jsonInit({
+			"message0": Blockly.Msg.PIR_SENSOR,
+			"args0": [
+        {
+          "type": "input_value",
+          "name": "PIN"
+        }
+      ],
+      "category": Blockly.Categories.more,
+      "extensions": ["colours_looks", "output_boolean", "scratch_extension"]
+		})
+	}
+};
