@@ -563,14 +563,14 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
   // '</category>' +
 	'<category name="Components" id="components" colour="#9966FF" secondaryColour="#774DCB" ' +
     'showStatusButton="false">' +
-    '<block type="components_ledoff" id="components_ledoff">' +
+		'<block type="components_ledon" id="components_ledon">' +
       '<value name="PIN">' +
 				'<shadow type="math_number">' +
 					'<field name="NUM">0</field>' +
 				'</shadow>' +
       '</value>' +
     '</block>' +
-		'<block type="components_ledon" id="components_ledon">' +
+		'<block type="components_ledoff" id="components_ledoff">' +
       '<value name="PIN">' +
 				'<shadow type="math_number">' +
 					'<field name="NUM">0</field>' +
@@ -603,9 +603,9 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
 				'</shadow>' +
 			'</value>' +
     '</block>' +
-		'<block type="components_internalledoff" id="components_internalledoff">' +
-    '</block>' +
 		'<block type="components_internalledon" id="components_internalledon">' +
+    '</block>' +
+		'<block type="components_internalledoff" id="components_internalledoff">' +
     '</block>' +
 		'<block type="components_internalledstatus" id="components_internalledstatus">' +
     '</block>' +
