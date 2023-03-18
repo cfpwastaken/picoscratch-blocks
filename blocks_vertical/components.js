@@ -360,3 +360,12 @@ Blockly.Blocks["components_buzzer_freq"] = {
 		})
 	}
 };
+Blockly.Blocks["components_internaltemp"] = {
+	init() {
+		this.jsonInit({
+			"message0": Blockly.Msg.INTERNAL_TEMP,
+			"category": Blockly.Categories.more,
+			"extensions": ["colours_looks", "output_number", "scratch_extension"]
+		})
+	}
+}

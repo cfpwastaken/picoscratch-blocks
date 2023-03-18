@@ -693,6 +693,8 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
 				'</shadow>' +
 			'</value>' +
     '</block>' +
+		'<block type="components_internaltemp" id="components_internaltemp">' +
+    '</block>' +
   '</category>' +
 	'<category name="Debug" id="debug" colour="#29beb8" secondaryColour="#29ebe8" ' +
     'iconURI="./media/extensions/wedo2-block-icon.svg" showStatusButton="false">' +
